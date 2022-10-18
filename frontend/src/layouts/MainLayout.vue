@@ -3,10 +3,10 @@
     <!-- Header div add gt-sm to class later for responsive-->
     <div
  
-      class="text-white flex justify-between items-center no-wrap gt-sm"
+      class="text-white flex justify-between items-center no-wrap gt-sm q-px-xl"
     >
       <div class="flex items-center no-wrap">
-        <div
+        <!-- <div
           class="q-mx-xl"
           style="font-size: 35px; cursor: pointer"
           @click="$router.push('/home')"
@@ -16,7 +16,7 @@
             alt=""
             style="width: 15vw; margin-top: 10px"
           />
-        </div>
+        </div> -->
 
         <q-select
           dense
@@ -74,18 +74,18 @@
           content-class="q-gutter-x-sm"
         >
           <q-route-tab name="home" label="Home" exact to="/" />
-          <q-route-tab name="about" label="Page 2" exact to="" />
-          <q-route-tab name="Pricing" label="Page 3" exact to="" />
+          <!-- <q-route-tab name="about" label="Page 2" exact to="" />
+          <q-route-tab name="Pricing" label="Page 3" exact to="" /> -->
         </q-tabs>
 
-        <q-btn
+        <!-- <q-btn
           style="background: red; color: white"
           label="Log Out"
           icon="logout"
           rounded
           class="q-mr-xl q-py-xs"
           to="/login"
-        />
+        /> -->
       </div>
     </div>
 
